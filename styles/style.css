@@ -440,7 +440,7 @@ p {
 }
 @media (max-width: 600px) {
   .menu__container {
-    padding: 30px;
+    padding-top: 70px;
   }
 }
 .menu__container__title {
@@ -717,8 +717,8 @@ p {
 }
 @media (max-width: 600px) {
   .contact-details {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 .contact-details__wrapper {
