@@ -30,9 +30,9 @@ li {
 @media (max-width: 600px) {
   .burger {
     top: 10px;
-    width: 30px;
+    width: 40px;
     right: 20px;
-    height: 25px;
+    height: 35px;
     border: none;
     position: fixed;
     flex-direction: column;
@@ -40,7 +40,7 @@ li {
     justify-content: space-between;
   }
   .burger hr {
-    height: 5px;
+    height: 7px;
     border: none;
     background-color: #35B8BE;
   }
@@ -63,7 +63,7 @@ h2 {
 }
 @media (max-width: 600px) {
   h2 {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
@@ -74,8 +74,8 @@ p {
 }
 @media (max-width: 600px) {
   p {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 20px;
   }
 }
 
@@ -107,7 +107,7 @@ p {
   .btn {
     width: 140px;
     height: 40px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 4px;
   }
 }
@@ -195,8 +195,8 @@ p {
 }
 @media (max-width: 600px) {
   .navigation__menu .shopping-cart a img {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
   }
 }
 .navigation__menu .shopping-cart a .badge {
@@ -215,12 +215,13 @@ p {
 }
 @media (max-width: 600px) {
   .navigation__menu .shopping-cart a .badge {
-    top: -5px;
-    width: 15px;
-    height: 15px;
-    font-size: 9px;
-    padding: 2px 5px;
-    box-shadow: 0 0 30px 0 #7E828F;
+    top: -10px;
+    left: 35px;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    padding: 4px 8px;
+    box-shadow: 0 0 40px 0 #7E828F;
   }
 }
 .navigation__menu .shopping-cart a:hover {
@@ -324,9 +325,9 @@ p {
 }
 @media (max-width: 600px) {
   .company-info__container {
-    flex-direction: column;
     width: 300px;
     padding-top: 10px;
+    flex-direction: column;
   }
 }
 .company-info__container_content {
@@ -407,7 +408,7 @@ p {
 @media (max-width: 600px) {
   .order-guide__container_block .guidance {
     margin-top: 0;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
 }
@@ -460,7 +461,7 @@ p {
 }
 @media (max-width: 600px) {
   .menu__container__title p {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 .menu__container__categories {
@@ -496,7 +497,7 @@ p {
   .menu__container__categories .category-selection {
     width: 90px;
     height: 30px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 4px;
   }
 }
@@ -842,7 +843,7 @@ p {
   .order__block .order-btn {
     width: 140px;
     height: 40px;
-    font-size: 12px;
+    font-size: 15px;
     color: #FFFFFF;
     margin-top: 30px;
     border-radius: 4px;
