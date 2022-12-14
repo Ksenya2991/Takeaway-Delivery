@@ -541,7 +541,7 @@ p {
 @media (max-width: 600px) {
   .menu__container__selections_block_item {
     width: 250px;
-    height: 340px;
+    height: 360px;
     padding: 10px;
     align-items: center;
     flex-direction: column;
