@@ -8,42 +8,55 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <div class="burger">
-        <hr>
-        <hr>
-        <hr>
-    </div>
+    <button class="scroll-back">
+        <a href="#">
+            <img src="https://charlotteuav.com/wp-content/uploads/2019/10/charlotte-uav-scroll-down-arrow-icon.png" alt="arrow">
+        </a>
+    </button>
 
-    <header>
-        <div class="header-top">
-            <div class="header-top__content">
-                <div class="header-top__content_info">
-                    <p>We're open and available for takeaway & delivery.</p>
-                </div>
-                <div class="header-top__content_order-link">
-                    <p><a href="">Order Now</a></p>
-                </div>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top__content">
+                <p>We're open and available for takeaway & delivery.</p>
+                <p><a href="#">Order Now</a></p>
             </div>
         </div>
 
-        <div class="navigation">
-
-            <div class="navigation__logo">
-                <img class="logo-icon" src="./img/location-icon.svg" alt="">
-            </div>
-            <div class="navigation__menu">
-                <ul class="menu-list">
-                    <li><a class="turquoise" href="">Home</a></li>
-                    <li><a href="">Order</a></li>
-                    <li><a href="">Company</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <div class="shopping-cart">
-                    <a href="">
-                        <img src="./img/cart-icon.jpg" alt="">
-                        <span class="badge">0</span>
-                    </a>
+        <div class="header__navigation">
+            <div class="header__navigation__wrapper">
+                <div class="header__navigation__wrapper__logo">
+                    <img class="logo-icon" src="./img/location-icon.svg" alt="">
+                </div>
+                <div class="header__navigation__wrapper__menu">
+                    <ul class="menu-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Order</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <button class="shopping-cart">
+                        <a href="#">
+                            <img src="./img/cart-icon.svg" alt="cart">
+                            <span class="badge">0</span>
+                        </a>
+                    </button>
+                    <div class="burger-menu">
+                        <div class="burger">
+                            <hr>
+                            <hr>
+                            <hr>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Order</a></li>
+                                <li><a href="#">Company</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -315,5 +328,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./index.js"></script>
 </body>
 </html>
